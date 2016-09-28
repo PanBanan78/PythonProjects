@@ -1,65 +1,86 @@
-__author__ = 'Oskar'
+__author__ = 'Oskar Matacz'
 import time
 import sys
 
-# Basic calculator program
 
+class CalculatorMethods():
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-class CalculatorBackend():
     @staticmethod
     def add(x, y):
-        print(x + y)
+        return x + y
 
     @staticmethod
     def subtract(x, y):
-        print(x - y)
+        return x - y
 
     @staticmethod
     def multiply(x, y):
-        print(x * y)
+        return x * y
 
     @staticmethod
     def divide(x, y):
-        print(x / y)
+        return x / y
 
 
-print("**************************")
-print("**** Basic Calculator ****")
-print("**************************")
-print("\n"
-      "This is a basic calculator \n"
-      "that will allow you to add \n"
-      "subtract, multiply and \n"
-      "divide integers. \n")
+def calculate():
+    print("**************************")
+    print("**** Basic Calculator ****")
+    print("**************************")
+    print("\n"
+          "This is a basic calculator \n"
+          "that will allow you to add \n"
+          "subtract, multiply and \n"
+          "divide integers. \n")
 
-time.sleep(1)
+    int_one = int(input("Please input your first integer: "))
+    int_two = int(input("Please input your second integer: "))
 
-firstInput = int(input("Please input your first integer: "))
-time.sleep(0.5)
-secondInput = int(input("Please input your second integer: "))
+    time.sleep(0.5)
 
-time.sleep(0.5)
-operationInput = input("Please choose one of the four operations \n"
-                       "1.) Add \n"
-                       "2.) Subtract \n"
-                       "3.) Multiply \n"
-                       "4.) Divide \n")
+    while True:
+        operation_input = input("Please choose one of the four operations \n"
+                                "1.) Add \n"
+                                "2.) Subtract \n"
+                                "3.) Multiply \n"
+                                "4.) Divide \n")
 
-time.sleep(0.5)
-print(firstInput, operationInput, secondInput, "Is that correct? (Y/N)")
-yesOrNoInput = input()
+        if operation_input not in {"1", "2", "3", "4"}:
+            print("Please use a valid input! (1-4)\n \n")
+            time.sleep(1)
+        elif operation_input == "1":
+            print(int_one, "+", int_two, "=", CalculatorMethods.add(int_one, int_two))
+            break
+        elif operation_input == "2":
+            print(int_one, "-", int_two, "=", CalculatorMethods.subtract(int_one, int_two))
+            break
+        elif operation_input == "3":
+            print(int_one, "*", int_two, "=", CalculatorMethods.multiply(int_one, int_two))
+            break
+        elif operation_input == "4":
+            print(int_one, "/", int_two, "=", CalculatorMethods.divide(int_one, int_two))
+            break
 
-if yesOrNoInput == "N":
-    sys.exit()
-elif yesOrNoInput == "Y":
-    if operationInput == "Add" or "add":
-        CalculatorBackend.add(firstInput, secondInput)
-    elif operationInput == "Subtract" or "subtract":
-        CalculatorBackend.subtract(firstInput, secondInput)
-    elif operationInput == "Multiply" or "multiply":
-        CalculatorBackend.multiply(firstInput, secondInput)
-    elif operationInput == "Divide" or "divide":
-        CalculatorBackend.divide(firstInput, secondInput)
+    time.sleep(2)
+    return rerun()
+
+
+def rerun():
+    while True:
+        again = input("Thank you again for using this calculator, would you like to try again? Please type yes or no\n")
+        if again not in {"yes", "no"}:
+            print("Please enter valid input!")
+        elif again == "no":
+            print("Thank you, bye!")
+            time.sleep(1)
+            sys.exit()
+            break
+        elif again == "yes":
+            return calculate()
+
+calculate()
 
 
 
