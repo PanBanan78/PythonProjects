@@ -4,9 +4,10 @@ import sys
 
 
 class CalculatorMethods():
-    def __init__(self, x, y):
+    def __init__(self, x, y, amount_of_dp):
         self.x = x
         self.y = y
+        self.amount_of_dp = amount_of_dp
 
     @staticmethod
     def add(x, y):
@@ -23,6 +24,11 @@ class CalculatorMethods():
     @staticmethod
     def divide(x, y):
         return x / y
+
+    @staticmethod
+    def round(x, y):
+        amount_of_dp = int(input("Please input the amount of DP you would like to round the number to: \n"))
+        return round(CalculatorMethods.divide(x, y), amount_of_dp)
 
 
 def calculate():
@@ -60,7 +66,7 @@ def calculate():
             print(int_one, "*", int_two, "=", CalculatorMethods.multiply(int_one, int_two))
             break
         elif operation_input == "4":
-            print(int_one, "/", int_two, "=", CalculatorMethods.divide(int_one, int_two))
+            print(CalculatorMethods.round(int_one, int_two))
             break
 
     time.sleep(2)
@@ -69,7 +75,7 @@ def calculate():
 
 def rerun():
     while True:
-        again = input("Thank you again for using this calculator, would you like to try again? Please type yes or no\n")
+        again = input("Thank you again for using this calculator, would you like to try again? Please type yes or no:\n")
         if again not in {"yes", "no"}:
             print("Please enter valid input!")
         elif again == "no":
