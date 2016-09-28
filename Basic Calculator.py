@@ -41,8 +41,21 @@ def calculate():
           "subtract, multiply and \n"
           "divide integers. \n")
 
-    int_one = int(input("Please input your first integer: "))
-    int_two = int(input("Please input your second integer: "))
+    while True:
+        int_one = input("Please input your first integer: ")
+        try:
+            int_one = int(int_one)
+            break
+        except ValueError:
+            print("That is not a integer! \n"
+                  "Please try again \n")
+    while True:
+        int_two = input("Please input your second integer: ")
+        try:
+            int_two = int(int_two)
+            break
+        except ValueError:
+            print()
 
     time.sleep(0.5)
 
@@ -87,7 +100,3 @@ def rerun():
             return calculate()
 
 calculate()
-
-
-
-
