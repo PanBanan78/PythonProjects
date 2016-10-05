@@ -1,4 +1,4 @@
-__author__ = 'Oskar Matacz'
+__author__ = 'Oskar'
 
 
 def check_input(usr_input):
