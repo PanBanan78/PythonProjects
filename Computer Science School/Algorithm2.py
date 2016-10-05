@@ -1,4 +1,5 @@
 __author__ = "Oskar Matacz"
+__version__ = "0.5"
 balance = int(50000)
 maxWithdraw = int(250)
 
