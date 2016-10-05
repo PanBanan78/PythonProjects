@@ -1,3 +1,4 @@
+__author__ = "Oskar Matacz"
 balance = int(50000)
 maxWithdraw = int(250)
 

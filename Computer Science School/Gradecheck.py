@@ -1,36 +1,55 @@
 __author__ = 'Oskar Matacz'
 
+from time import sleep
 
-def grade_check(percentage):
-    if totalPercentage < 4:
+def grade_check(total_score):
+    if totalScore < 4:
         return grades[0]
-    elif percentage >= 4 and percentage < 13:
+    elif total_score >= 4 and total_score < 13:
+        return grades[1]
+    elif total_score >= 13 and total_score < 22:
+        return grades[2]
+    elif total_score >= 22 and total_score < 31:
+        return grades[3]
+    elif total_score >= 31 and total_score < 41:
         return grades[4]
-    elif percentage >= 13 and percentage < 22:
-        return grades[13]
-    elif percentage >= 22 and percentage < 31:
-        return grades[22]
-    elif percentage >= 31 and percentage < 41:
-        return grades[31]
-    elif percentage >= 41 and percentage < 54:
-        return grades[41]
-    elif percentage >= 54 and percentage < 67:
-        return grades[54]
-    elif percentage >= 67 and percentage < 80:
-        return  grades[67]
-    elif percentage >= 80:
-        return grades[80]
+    elif total_score >= 41 and total_score < 54:
+        return grades[5]
+    elif total_score >= 54 and total_score < 67:
+        return grades[6]
+    elif total_score >= 67 and total_score < 80:
+        return grades[7]
+    elif total_score >= 80:
+        return grades[8]
 
 
-analysis = int(input("Enter the marks for the analysis: "))
-design = int(input("Enter the marks for the design: "))
-implementation = int(input("Enter the marks for the implementation: "))
-evaluation = int(input("Enter the marks for evaluation: "))
+#def next_grade_check(total_score, grade):
 
-grades = {0: "U", 4: "G", 13: "F", 22: "E", 31: "D", 41: "C", 54: "B", 67: "A", 80: "A*"}
 
-totalPercentage = analysis + design + implementation + evaluation
+while True:
+    analysis = input("Enter the marks for the analysis: ")
+    design = input("Enter the marks for the design: ")
+    implementation = input("Enter the marks for the implementation: ")
+    evaluation = input("Enter the marks for evaluation: ")
+    try:
+        analysis = int(analysis)
+        design = int(design)
+        implementation = int(implementation)
+        evaluation = int(evaluation)
+        break
+    except ValueError:
+        print("One of the values entered is not a integer, please try again...")
+        sleep(1)
 
-print("Your total score is:", totalPercentage)
+#        0  1  2   3   4   5   6   7   8
+score = [0, 4, 13, 22, 31, 41, 54, 67, 80]
+#          0    1    2    3    4    5    6    7    8
+grades = ["U", "G", "F", "E", "D", "C", "B", "A", "A*"]
 
-print("Your grade is:", grade_check(totalPercentage))
+totalScore = analysis + design + implementation + evaluation
+
+print("Your total score is:", totalScore)
+
+finalGrade = grade_check(totalScore)
+
+print("Your grade is:", finalGrade)
