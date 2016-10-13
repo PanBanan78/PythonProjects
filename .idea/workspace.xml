@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed862f1-e3ae-438f-afbf-ecad20ec90d5" name="Default" comment="Quick commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/GUI 1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/Json.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Game/Simple Game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files/json" />
-      <change type="MOVED" beforePath="C:\Users\nhtea\PycharmProjects\PythonProjects\PyGame\PyGame Hello World.py" afterPath="$PROJECT_DIR$/PyGame/Slither.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer Science School/Pseudocode" afterPath="$PROJECT_DIR$/Computer Science School/Pseudocode" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonProjects.iml" afterPath="$PROJECT_DIR$/.idea/PythonProjects.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="2ed862f1-e3ae-438f-afbf-ecad20ec90d5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Oskar.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Oskar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyGame/Slither.py" afterPath="$PROJECT_DIR$/PyGame/Slither.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonProjects.iws" />
@@ -35,7 +29,7 @@
     <SUITE FILE_PATH="coverage/PythonProjects$Algorythem3.coverage" NAME="Algorythem3 Coverage Results" MODIFIED="1475268781434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProjects$File_appened.coverage" NAME="File appened Coverage Results" MODIFIED="1475232115061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Files" />
     <SUITE FILE_PATH="coverage/PythonProjects$Gradecheck.coverage" NAME="Gradecheck Coverage Results" MODIFIED="1475270985191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Computer Science School" />
-    <SUITE FILE_PATH="coverage/PythonProjects$PyGame_Hello_World.coverage" NAME="PyGame Hello World Coverage Results" MODIFIED="1476384187258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyGame" />
+    <SUITE FILE_PATH="coverage/PythonProjects$PyGame_Hello_World.coverage" NAME="PyGame Hello World Coverage Results" MODIFIED="1476386448410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyGame" />
     <SUITE FILE_PATH="coverage/PythonProjects$OOP.coverage" NAME="OOP Coverage Results" MODIFIED="1475009851101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
     <SUITE FILE_PATH="coverage/PythonProjects$Json.coverage" NAME="Json Coverage Results" MODIFIED="1476119201458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Files" />
   </component>
@@ -54,12 +48,14 @@
       <file leaf-file-name="Slither.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PyGame/Slither.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15184382" vertical-offset="100" max-vertical-offset="816">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.9956616" vertical-offset="204" max-vertical-offset="1037">
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
               <folding>
-                <element signature="e#52#68#0" expanded="false" />
-                <element signature="e#180#205#0" expanded="false" />
-                <element signature="e#386#409#0" expanded="false" />
+                <element signature="e#21#34#0" expanded="true" />
+                <element signature="e#77#93#0" expanded="false" />
+                <element signature="e#205#228#0" expanded="false" />
+                <element signature="e#697#715#0" expanded="false" />
+                <element signature="e#1419#1444#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -149,34 +145,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PythonProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,7 +588,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476305584279</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Quick commit">
+      <created>1476384768066</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1476384768066</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -629,6 +603,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,7 +616,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -670,13 +644,13 @@
     <MESSAGE value="Most of the calculator is done!" />
     <MESSAGE value="Rounding function is done and called when the use wants to divide" />
     <MESSAGE value="Checks if user inputs an int and if not asks for it again until int is inputed" />
-    <MESSAGE value="Quick commit" />
     <MESSAGE value="Slither progress stared (pyGame)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slither progress stared (pyGame)" />
+    <MESSAGE value="Quick commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,9 +660,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#52#68#0" expanded="false" />
-            <element signature="e#180#205#0" expanded="false" />
-            <element signature="e#386#409#0" expanded="false" />
+            <element signature="e#21#34#0" expanded="true" />
+            <element signature="e#77#93#0" expanded="false" />
+            <element signature="e#205#228#0" expanded="false" />
+            <element signature="e#697#715#0" expanded="false" />
+            <element signature="e#1419#1444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,9 +674,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#52#68#0" expanded="false" />
-            <element signature="e#180#205#0" expanded="false" />
-            <element signature="e#386#409#0" expanded="false" />
+            <element signature="e#21#34#0" expanded="true" />
+            <element signature="e#77#93#0" expanded="false" />
+            <element signature="e#205#228#0" expanded="false" />
+            <element signature="e#697#715#0" expanded="false" />
+            <element signature="e#1419#1444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -710,9 +688,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#52#68#0" expanded="false" />
-            <element signature="e#180#205#0" expanded="false" />
-            <element signature="e#386#409#0" expanded="false" />
+            <element signature="e#21#34#0" expanded="true" />
+            <element signature="e#77#93#0" expanded="false" />
+            <element signature="e#205#228#0" expanded="false" />
+            <element signature="e#697#715#0" expanded="false" />
+            <element signature="e#1419#1444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -722,9 +702,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#52#68#0" expanded="false" />
-            <element signature="e#180#205#0" expanded="false" />
-            <element signature="e#386#409#0" expanded="false" />
+            <element signature="e#21#34#0" expanded="true" />
+            <element signature="e#77#93#0" expanded="false" />
+            <element signature="e#205#228#0" expanded="false" />
+            <element signature="e#697#715#0" expanded="false" />
+            <element signature="e#1419#1444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,12 +1015,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyGame/Slither.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15184382" vertical-offset="100" max-vertical-offset="816">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.9956616" vertical-offset="204" max-vertical-offset="1037">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding>
-            <element signature="e#52#68#0" expanded="false" />
-            <element signature="e#180#205#0" expanded="false" />
-            <element signature="e#386#409#0" expanded="false" />
+            <element signature="e#21#34#0" expanded="true" />
+            <element signature="e#77#93#0" expanded="false" />
+            <element signature="e#205#228#0" expanded="false" />
+            <element signature="e#697#715#0" expanded="false" />
+            <element signature="e#1419#1444#0" expanded="false" />
           </folding>
         </state>
       </provider>
