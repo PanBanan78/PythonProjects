@@ -1,2 +1,10 @@
 input analysis score (int)
 input design score (
+
+group7 = {
+    "F": ["Fluorine", "19", "Group 7"],
+    "Cl": ["Chlorine", "35.5", "Group 7"],
+    "Br": ["Bromine", "80", "Group 7"],
+    "I": ["Iodine", "127", "Group 7"],
+    "At": ["Astatine", "210", "Group 7"]
+}
